@@ -1,304 +1,462 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Research|MARG IITR</title>
     <!-- <script src="js/jquery-3.6.1.min.js" defer></script> -->
     <!-- <script src="js/scriptindex.js" defer></script> -->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
     <!-- link to the icon website -->
-    <link rel="icon" type="image/x-icon" href="./image/marglogonew.png">
+    <link rel="icon" type="image/x-icon" href="./image/marglogonew.png" />
     <script src="./index.js" defer></script>
-    <script src="https://kit.fontawesome.com/84bc5e87e6.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/84bc5e87e6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-
-<body>
+  <body>
     <header>
-        <div class="header">
-            <div id="nav_bar" >
-                <div id="div1">
-                    <!-- <div id="marglogo"><img src="images/marglogo.png" alt="MARG logo" height="70px"></div> -->
-                    <!-- <div id="IITRlogo"><img src="images/iitrlogo.png" alt="IITR logo" height="50px"></div> -->
-                    <div id="marglogo"><a href="./index.html"><img src="./image/NavbarLogoNew.png" alt="MARG logo" height="60px"></a></div>          
-                
-                    <div id="hamburger_section">
-                        <!-- <div class="hamburger"><span class="bar"></span></div>
+      <div class="header">
+        <div id="nav_bar">
+          <div id="div1">
+            <!-- <div id="marglogo"><img src="images/marglogo.png" alt="MARG logo" height="70px"></div> -->
+            <!-- <div id="IITRlogo"><img src="images/iitrlogo.png" alt="IITR logo" height="50px"></div> -->
+            <div id="marglogo">
+              <a href="./index.html"
+                ><img
+                  src="./image/NavbarLogoNew.png"
+                  alt="MARG logo"
+                  height="60px"
+              /></a>
+            </div>
+
+            <div id="hamburger_section">
+              <!-- <div class="hamburger"><span class="bar"></span></div>
                         <div class="hamburger"><span class="bar"></span></div>
                         <div class="hamburger"><span class="bar"></span></div> -->
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                </div>
-                <div id="div2">
-                    <div id="nav_menu">
-                        <ul id="nav_items">
-                            <li class="nav_item_list"><a class="nav_item" href="./index.html">Home</a></li>
-                            <li class="nav_item_list"><a class="nav_item" href="./people.html">People</a></li>
-                            <li class="nav_item_list"><a class="nav_item" href="#">Research</a></li>
-                            <li class="nav_item_list"><a class="nav_item" href="./resources.html">Resources</a></li>
-                            <li class="nav_item_list"><a href="./contact-us.html"><button id="join_us_button">Join Us</button></a></li>
-                            <li class="nav_item_list_image"><img src="./image/IITRlogo.png" style="height: 60px;" alt="IITR Logo"></li>
-                            <!-- onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#c8c8c8'" -->
-                        </ul>
-                    </div>
-                </div>
-                
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
             </div>
-            
+          </div>
+          <div id="div2">
+            <div id="nav_menu">
+              <ul id="nav_items">
+                <li class="nav_item_list">
+                  <a class="nav_item" href="./index.html">Home</a>
+                </li>
+                <li class="nav_item_list">
+                  <a class="nav_item" href="./people.html">People</a>
+                </li>
+                <li class="nav_item_list">
+                  <a class="nav_item" href="#">Research</a>
+                </li>
+                <li class="nav_item_list">
+                  <a class="nav_item" href="./resources.html">Resources</a>
+                </li>
+                <li class="nav_item_list">
+                  <a href="./contact-us.html"
+                    ><button id="join_us_button">Join Us</button></a
+                  >
+                </li>
+                <li class="nav_item_list_image">
+                  <img
+                    src="./image/IITRlogo.png"
+                    style="height: 60px"
+                    alt="IITR Logo"
+                  />
+                </li>
+                <!-- onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#c8c8c8'" -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="research-div">
       
+      <div class="tab">
+        <button
+          class="tablinks"
+          onclick="openTab(event, 'journal')"
+          id="defaultOpen"
+        >
+          Journal Articles
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'conf')">
+          Conference proceedings
+        </button>
+      </div>
+      <div class="publications" id="journal">
+        <div class="pub">
+          <div class="circle">1</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.1111/hsc.14085"
+                >Mitra, S., Singh, A., Rajendran Deepam, S., & Asthana, M. K.
+                (2022).</a
+              >
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              Information and communication technology adoption among the older
+              people: A qualitative approach. Health & Social Care in the
+              Community, 00, 1– 10
+            </p>
+          </div>
         </div>
-        
-      </header>
 
-<div class="research-div">
-    <div class="publications-text">
-        <h1>PUBLICATIONS</h1>
-    </div>
-    <div class="publications">
         <div class="pub">
-            <div class="circle">1</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1111/hsc.14085">Mitra, S., Singh, A., Rajendran Deepam, S., & Asthana, M. K. (2022).</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>Information and communication technology adoption among the older people: A qualitative approach. Health & Social Care in the Community, 00, 1– 10
-                </p>
-            </div>
+          <div class="circle">2</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.1007/s11011-021-00847-9"
+                >Sharma, L., Sharma, A., Kumar, D., Kumar, A., Asthana, M.K., &
+                Kumar, D.</a
+              >
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              Promising protein biomarkers in the early diagnosis of Alzheimer’s
+              disease. Metab Brain Dis (2022).
+            </p>
+          </div>
         </div>
         <div class="pub">
-            <div class="circle">2</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1007/978-3-030-94277-9_22">Sambath, R.D., Mitra, S., Asthana, M.K. (2022). </a></h3>
-            </div>
-            <div class="pub-des">
-                <p>Efficacy of Sex Differences on the Perceptual Experience of Virtual Building Images. In: Chakrabarti, D., Karmakar, S., Salve, U.R. (eds) Ergonomics for Design and Innovation. HWWE 2021. Lecture Notes in Networks and Systems, vol 391. Springer, Cham.
-                </p>
-            </div>
+          <div class="circle">3</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.1111/psyp.13639"
+                >Huang, Y., Zuo, K., Asthana, M. K., Comfort, W. E., & Xu,
+                Z(2020)</a
+              >
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              Electrophysiological evidence that release from proactive
+              inhibition reflects late semantic processing. Psychophysiology
+            </p>
+          </div>
         </div>
         <div class="pub">
-            <div class="circle">3</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1007/s11011-021-00847-9">Sharma, L., Sharma, A., Kumar, D., Kumar, A., Asthana, M.K., & Kumar, D.</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>Promising protein biomarkers in the early diagnosis of Alzheimer’s disease. Metab Brain Dis (2022).
-                </p>
-            </div>
+          <div class="circle">4</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.1007/s12144-019-00332-8"
+                >Huang, Y., Zuo, K., Asthana, M. K., Comfort, W. E., & Xu, Z.
+                (2019).</a
+              >
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              How robust and rapid can the memory-driven attentional capture be?
+              Current Psychology
+            </p>
+          </div>
         </div>
         <div class="pub">
-            <div class="circle">4</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1111/psyp.13639">Huang, Y., Zuo, K., Asthana, M. K., Comfort, W. E., & Xu, Z(2020)</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>Electrophysiological evidence that release from proactive inhibition reflects late semantic processing. Psychophysiology
-                </p>
-            </div>
+          <div class="circle">5</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.1101/561803"
+                >Ganho-Avila, A., Goncalves, O. F., Guiomar, R., Boggio, P. S.,
+                Asthana, M. K., Krypotos, A.-M., & Almeida, J. (2019).</a
+              >
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              The effect of cathodal tDCS on fear extinction: a cross-measures
+              study.
+            </p>
+          </div>
         </div>
-        <div class="pub">
-            <div class="circle">5</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1007/s12144-019-00332-8">Huang, Y., Zuo, K., Asthana, M. K., Comfort, W. E., & Xu, Z. (2019).</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>How robust and rapid can the memory-driven attentional capture be? Current Psychology
-                </p>
-            </div>
-        </div>
-        <div class="pub">
-            <div class="circle">6</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1101/561803">Ganho-Avila, A., Goncalves, O. F., Guiomar, R., Boggio, P. S., Asthana, M. K., Krypotos, A.-M., & Almeida, J. (2019).</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>The effect of cathodal tDCS on fear extinction: a cross-measures study. 
-                </p>
-            </div>
-        </div>
-        <div class="pub">
-            <div class="circle">7</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1101/561803">Ganho-Avila, A., Goncalves, O. F., Guiomar, R., Boggio, P. S., Asthana, M. K., Krypotos, A.-M., & Almeida, J. (2019).</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>The effect of cathodal tDCS on fear extinction: a cross-measures study. 
-                </p>
-            </div>
-        </div><div class="pub">
-            <div class="circle">8</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1101/561803">Ganho-Avila, A., Goncalves, O. F., Guiomar, R., Boggio, P. S., Asthana, M. K., Krypotos, A.-M., & Almeida, J. (2019).</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>The effect of cathodal tDCS on fear extinction: a cross-measures study. 
-                </p>
-            </div>
-        </div><div class="pub">
-            <div class="circle">9</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1101/561803">Ganho-Avila, A., Goncalves, O. F., Guiomar, R., Boggio, P. S., Asthana, M. K., Krypotos, A.-M., & Almeida, J. (2019).</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>The effect of cathodal tDCS on fear extinction: a cross-measures study. 
-                </p>
-            </div>
-        </div>
-        <div class="pub">
-            <div class="circle">10</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.3389/fpsyg.2017.02332">Busin, Y., Lukasova, K., Asthana, M. K., & Macedo, E. C. (2018)</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>Hemiface Differences in Visual Exploration Patterns When Judging the Authenticity of Facial Expressions. Frontiers in Psychology
-                </p>
-            </div>
-        </div>
-        <div class="pub">
-            <div class="circle">11</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1371/journal.pone.0184215">Donate, A. P. G., Marques, L. M., Lapenta, O. M., Asthana, M. K., Amodio, D., & Boggio, P. S. (2017)</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>Ostracism via virtual chat room—Effects on basic needs, anger and pain. Plos One, 12(9). 
-                </p>
-            </div>
-        </div>
-        <div class="pub">
-            <div class="circle">12</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1093/ijnp/pyv137">Asthana, M. K., Brunhuber, B., Mühlberger, A., Reif, A., Schneider, S., & Herrmann, M. J. (2015).</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>Preventing the Return of Fear Using Reconsolidation Update Mechanisms Depends on the Met-Allele of the Brain Derived Neurotrophic Factor Val66Met Polymorphism. International Journal of Neuropsychopharmacology.
-                </p>
-            </div>
-        </div>
-        <div class="pub">
-            <div class="circle">13</div>
-            <div class="pub-title">
-                <h3>Asthana MK.</h3>
-            </div>
-            <div class="pub-des">
-                <p>Opinion: Weak direct current stimulation a new prospect in William syndrome disorder with regard to social fear (American Journal of Psychology and Behavioral Sciences in Volume 2, Issue 5,OCT 2015)
-                </p>
-            </div>
-        </div>
-        <div class="pub">
-            <div class="circle">14</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.3389/fnins.2015.00294">Boggio, P. S., Asthana, M. K., Costa, T. L., Valasek, C. A., & Osório, A. A. C. (2015).</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>Promoting social plasticity in developmental disorders with non-invasive brain stimulation techniques. Frontiers in Neuroscience, 9
-                </p>
-            </div>
-        </div>
-        <div class="pub">
-            <div class="circle">15</div>
-            <div class="pub-title">
-                <h3>Singh, R., & Asthana, M</h3>
-            </div>
-            <div class="pub-des">
-                <p>Opinion Article: Fear learning and Childhood Autism. International Journal of Psychosocial Research), vol.3 Issue (2), December, 2014
-                </p>
-            </div>
-        </div>
-        <div class="pub">
-            <div class="circle">16</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.3389/fpsyt.2013.00107">Asthana, M., Nueckel, K., Mühlberger, A., Neueder, D., Polak, T., Domschke, K., Herrmann, M. J. (2013)</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>Effects of Transcranial Direct Current Stimulation on Consolidation of Fear Memory. Frontiers in Psychiatry, 4
-                </p>
-            </div>
-        </div>
-        <div class="pub">
-            <div class="circle">17</div>
-            <div class="pub-title">
-                <h3><a href="https://doi.org/10.1155/2013/187692">Bellaïche, L., Asthana, M., Ehlis, A.-C., Polak, T., & Herrmann, M. J. (2013)</a></h3>
-            </div>
-            <div class="pub-des">
-                <p>The Modulation of Error Processing in the Medial Frontal Cortex by Transcranial Direct Current Stimulation. Neuroscience Journal, 2013, 1–10.
-                </p>
-            </div>
-        </div>
-    </div>
-    
-    
 
-    
-</div>
-<footer>
-    <div class="mapandcontactus">
+        <div class="pub">
+          <div class="circle">6</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.3389/fpsyg.2017.02332"
+                >Busin, Y., Lukasova, K., Asthana, M. K., & Macedo, E. C.
+                (2018)</a
+              >
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              Hemiface Differences in Visual Exploration Patterns When Judging
+              the Authenticity of Facial Expressions. Frontiers in Psychology
+            </p>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="circle">7</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.1371/journal.pone.0184215"
+                >Donate, A. P. G., Marques, L. M., Lapenta, O. M., Asthana, M.
+                K., Amodio, D., & Boggio, P. S. (2017)</a
+              >
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              Ostracism via virtual chat room—Effects on basic needs, anger and
+              pain. Plos One, 12(9).
+            </p>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="circle">8</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.1093/ijnp/pyv137"
+                >Asthana, M. K., Brunhuber, B., Mühlberger, A., Reif, A.,
+                Schneider, S., & Herrmann, M. J. (2015).</a
+              >
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              Preventing the Return of Fear Using Reconsolidation Update
+              Mechanisms Depends on the Met-Allele of the Brain Derived
+              Neurotrophic Factor Val66Met Polymorphism. International Journal
+              of Neuropsychopharmacology.
+            </p>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="circle">9</div>
+          <div class="pub-title">
+            <h3>Asthana MK.</h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              Opinion: Weak direct current stimulation a new prospect in William
+              syndrome disorder with regard to social fear (American Journal of
+              Psychology and Behavioral Sciences in Volume 2, Issue 5,OCT 2015)
+            </p>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="circle">10</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.3389/fnins.2015.00294"
+                >Boggio, P. S., Asthana, M. K., Costa, T. L., Valasek, C. A., &
+                Osório, A. A. C. (2015).</a
+              >
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              Promoting social plasticity in developmental disorders with
+              non-invasive brain stimulation techniques. Frontiers in
+              Neuroscience, 9
+            </p>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="circle">11</div>
+          <div class="pub-title">
+            <h3>Singh, R., & Asthana, M</h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              Opinion Article: Fear learning and Childhood Autism. International
+              Journal of Psychosocial Research), vol.3 Issue (2), December, 2014
+            </p>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="circle">12</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.3389/fpsyt.2013.00107"
+                >Asthana, M., Nueckel, K., Mühlberger, A., Neueder, D., Polak,
+                T., Domschke, K., Herrmann, M. J. (2013)</a
+              >
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              Effects of Transcranial Direct Current Stimulation on
+              Consolidation of Fear Memory. Frontiers in Psychiatry, 4
+            </p>
+          </div>
+        </div>
+        <div class="pub">
+          <div class="circle">13</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.1155/2013/187692"
+                >Bellaïche, L., Asthana, M., Ehlis, A.-C., Polak, T., &
+                Herrmann, M. J. (2013)</a
+              >
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              The Modulation of Error Processing in the Medial Frontal Cortex by
+              Transcranial Direct Current Stimulation. Neuroscience Journal,
+              2013, 1–10.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="publications" id="conf">
+        <div class="pub">
+          <div class="circle">1</div>
+          <div class="pub-title">
+            <h3>
+              <a href="https://doi.org/10.1007/978-3-030-94277-9_22"
+                >Sambath, R.D., Mitra, S., Asthana, M.K. (2022).
+              </a>
+            </h3>
+          </div>
+          <div class="pub-des">
+            <p>
+              Efficacy of Sex Differences on the Perceptual Experience of
+              Virtual Building Images. In: Chakrabarti, D., Karmakar, S., Salve,
+              U.R. (eds) Ergonomics for Design and Innovation. HWWE 2021.
+              Lecture Notes in Networks and Systems, vol 391. Springer, Cham.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="mapandcontactus">
         <div class="contactus">
-            <ul>
-                <li><i class="fa fa-phone"></i> 01332 284916</li>
-                <li><i class="fa fa-envelope"></i> iitrmarg@gmail.com</li>
-                <li><i class="fa fa-map-marker"></i> New Building-Humanities and Social Sciences Department,
-                    <br>4th Floor, H-404, Department of Humanities and Social Sciences,
-                    <br>Indian Institute of Technology Roorkee, Roorkee, 
-                    <br>Uttarakhand 247667.
-                    </li>
-            </ul>
+          <ul>
+            <li><i class="fa fa-phone"></i> 01332 284916</li>
+            <li><i class="fa fa-envelope"></i> iitrmarg@gmail.com</li>
+            <li>
+              <i class="fa fa-map-marker"></i> New Building-Humanities and
+              Social Sciences Department, <br />4th Floor, H-404, Department of
+              Humanities and Social Sciences, <br />Indian Institute of
+              Technology Roorkee, Roorkee, <br />Uttarakhand 247667.
+            </li>
+          </ul>
         </div>
-        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d568.1153086005594!2d77.89597713138525!3d29.861902745383638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb36fa1acfc8d%3A0x9753977a5da739fc!2sDepartment%20of%20Humanities%20and%20Social%20Sciences!5e0!3m2!1sen!2sin!4v1666115687166!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-    </div>
-    <div class="background_color">
-    <div class="footersection">
-        <div class="footerelement">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d568.1153086005594!2d77.89597713138525!3d29.861902745383638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb36fa1acfc8d%3A0x9753977a5da739fc!2sDepartment%20of%20Humanities%20and%20Social%20Sciences!5e0!3m2!1sen!2sin!4v1666115687166!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="background_color">
+        <div class="footersection">
+          <div class="footerelement">
             <div class="quicklinks">
-                <h3>QUICK LINKS</h3>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./people.html">People</a></li>
-                    <li><a href="./resources.html">Resources</a></li>
-                    <li><a href="#">Research</a></li>
-                </ul>
+              <h3>QUICK LINKS</h3>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./people.html">People</a></li>
+                <li><a href="./resources.html">Resources</a></li>
+                <li><a href="#">Research</a></li>
+              </ul>
             </div>
-        </div>
-        <div class="footerelement">
+          </div>
+          <div class="footerelement">
             <div class="aboutus">
-                <h3>ABOUT US</h3>
-                <ul>
-                    <li>Memory Anxiety Research Group</li>
-                    <li><i class="fa fa-envelope"></i> iitrmarg@gmail.com</li>
-                    <li>IIT Roorkee,India</li>
-                </ul>
+              <h3>ABOUT US</h3>
+              <ul>
+                <li>Memory Anxiety Research Group</li>
+                <li><i class="fa fa-envelope"></i> iitrmarg@gmail.com</li>
+                <li>IIT Roorkee,India</li>
+              </ul>
             </div>
-        </div>
-        <div class="footerelement">
+          </div>
+          <div class="footerelement">
             <div class="findus">
-                <h3>FIND US</h3>
-                <ul>
-                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100088522555025"><i class="fa fa-facebook"></i> </a></li>
-                    <li><a target="_blank" href="https://www.instagram.com/iitrmarg/"><i class="fa fa-instagram"></i> </a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com/company/margiitr/"><i class="fa fa-linkedin"></i> </a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/@margiitr/featured"><i class="fa fa-youtube"></i> </a></li>
-                </ul>
+              <h3>FIND US</h3>
+              <ul>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/profile.php?id=100088522555025"
+                    ><i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.instagram.com/iitrmarg/"
+                    ><i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/margiitr/"
+                    ><i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/@margiitr/featured"
+                    ><i class="fa fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
-        </div>
-        <div class="footerelement">
+          </div>
+          <div class="footerelement">
             <div class="marglogo">
-                <img src="image/FooterLogoNewWhite.png" style="height: 100px;" alt="LOGO not found">
+              <img
+                src="image/FooterLogoNewWhite.png"
+                style="height: 100px"
+                alt="LOGO not found"
+              />
             </div>
-        </div> 
-        
-    </div>
-    <div class="linefooter"></div>
-    
-    <div class="copyrightsection"><center>&copy; Copyright,2022<br>
-                        Developed by: Hrishit B P [BTech, CSE,2025] and G Jeevika [BTech, Mechanical Engineering,2025] || 
-                        Designed by: Barun Sethi [BTech, Chemical Engineering,2025] and Hemakesh Behara [BTech, Mechanical Engineering,2025]<br>
-                        Moderated by: Hrishit B P [BTech, CSE] and G Jeevika [BTech, Mechanical Engineering]</center></div>
-                        </div>
-</footer>
-    
-    
-</body>
+          </div>
+        </div>
+        <div class="linefooter"></div>
+
+        <div class="copyrightsection">
+          <center>
+            &copy; Copyright,2022<br />
+            Developed by: Hrishit B P [BTech, CSE,2025] and G Jeevika [BTech,
+            Mechanical Engineering,2025] || Designed by: Barun Sethi [BTech,
+            Chemical Engineering,2025] and Hemakesh Behara [BTech, Mechanical
+            Engineering,2025]<br />
+            Moderated by: Hrishit B P [BTech, CSE] and G Jeevika [BTech,
+            Mechanical Engineering]
+          </center>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("publications");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "flex";
+        evt.currentTarget.className += " active";
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
 </html>
